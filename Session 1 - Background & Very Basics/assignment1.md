@@ -1,16 +1,18 @@
-**What is a neural network neuron?**
+**1. What is a neural network neuron?**
 
 In Artificial Neural network, Neuron is basic computation unit that consist of a set of inputs, a set of weights, and an activation function. The neuron translates these inputs into a single output, which can then be picked up as input for another layer of neurons later on.
 
 Neuron function can be represented as weighted sum:
-$$
+
+
 f(X1, X2, ...Xn) = 1.X1+W2.X2+W3.X3+.....+Wn.Xn
-$$
+
+
 Each neuron has a *weight vector* w=(w1,w2,...,wn) where n is the number of inputs to that neuron. These inputs can be either the 'raw' input features such as binary value or the output of neurons from an earlier layer.
 
 
 
-**What is the use of the learning rate?**
+**2. What is the use of the learning rate?**
 
  The **learning rate** is a turning parameter in an optimization algoiritham that determines the step size at each iteration while moving toward a minimum of a loss function.
 
@@ -26,7 +28,7 @@ There are multiple ways to select a good starting point for the learning rate. A
 
 
 
-**How are weights initialized?**
+**3. How are weights initialized?**
 
 The nodes in neural networks are composed of parameters referred to as weights used to calculate a weighted sum of the inputs.
 
@@ -48,7 +50,7 @@ Historically, weight initialization follows simple heuristics, such as:
 
 
 
-**What is "loss" in a neural network?**
+**4. What is "loss" in a neural network?**
 
  The lower the **loss,** the better a model (unless the model has over-fitted to the training data). The loss is calculated on **training** and **validation** and its interperation is how well the model is doing for these two  sets. Unlike accuracy, loss is not a percentage. It is a summation of  the errors made for each example in training or validation sets.
 
@@ -58,7 +60,7 @@ Loss value implies how well or poorly a certain model behaves after each iterati
 
 
 
-**What is the "chain rule" in gradient flow?**
+**5.What is the "chain rule" in gradient flow?**
 
 Our objective is to reduce the loss or prediction error of the optimization fuction to accompolish that we use gradient of the error w.r.t weight.
 
@@ -87,7 +89,7 @@ w0`: weight 0 `i_0`: multiply the weights with output of previous layer, this is
 
 This is the chain rule from maths
 
-[![img](https://github.com/satyajitghana/TSAI-DeepNLP-END2.0/raw/main/01_VeryBasics/chain_rule.png)](https://github.com/satyajitghana/TSAI-DeepNLP-END2.0/blob/main/01_VeryBasics/chain_rule.png)
+[![img](https://raw.githubusercontent.com/thamizhannal/END3.0/main/Session%201%20-%20Background%20%26%20Very%20Basics/chain_rule.png)]
 
 see how [![\frac{\partial z}{\partial s} = \frac{\partial z}{\partial x}\frac{\partial x}{\partial s}](https://camo.githubusercontent.com/9782061dc94e117007d9bbd1b517aeaa98f64be7e0b0100ba0e5d52b4ae5dd38/68747470733a2f2f6c617465782e636f6465636f67732e636f6d2f7376672e6c617465783f5c667261637b5c7061727469616c2673706163653b7a7d7b5c7061727469616c2673706163653b737d2673706163653b3d2673706163653b5c667261637b5c7061727469616c2673706163653b7a7d7b5c7061727469616c2673706163653b787d5c667261637b5c7061727469616c2673706163653b787d7b5c7061727469616c2673706163653b737d)](https://camo.githubusercontent.com/9782061dc94e117007d9bbd1b517aeaa98f64be7e0b0100ba0e5d52b4ae5dd38/68747470733a2f2f6c617465782e636f6465636f67732e636f6d2f7376672e6c617465783f5c667261637b5c7061727469616c2673706163653b7a7d7b5c7061727469616c2673706163653b737d2673706163653b3d2673706163653b5c667261637b5c7061727469616c2673706163653b7a7d7b5c7061727469616c2673706163653b787d5c667261637b5c7061727469616c2673706163653b787d7b5c7061727469616c2673706163653b737d)
 
