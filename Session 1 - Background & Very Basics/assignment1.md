@@ -1,5 +1,5 @@
-Name: Thamizhannal
-Email: annalwins@gmail.com
+### Name: Thamizhannal <br>
+### Email: annalwins@gmail.com <br>
 
 **1. What is a neural network neuron?**
 
