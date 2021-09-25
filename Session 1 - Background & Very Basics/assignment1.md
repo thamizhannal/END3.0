@@ -1,3 +1,6 @@
+Name: Thamizhannal
+Email: annalwins@gmail.com
+
 **1. What is a neural network neuron?**
 
 In Artificial Neural network, Neuron is basic computation unit that consist of a set of inputs, a set of weights, and an activation function. The neuron translates these inputs into a single output, which can then be picked up as input for another layer of neurons later on.
