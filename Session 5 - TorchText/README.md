@@ -17,6 +17,8 @@ Upload to Github with a proper readme file describing your datasets, and showing
 
 **Train, test and validation set:** Train set was taken from 95% of train data and rest of the 5% used for validation purpose. test set was used as it is.
 
+## 1. Sogou News Classification
+
 ### Sogou New Dataset Summary
 **Description:** The Sogou News dataset is a mixture of 2,909,551 news articles from the SogouCA and SogouCS news corpora, in 5 categories. The number of training samples selected for each class is 90,000 and testing 12,000. <br>
 **Data Fields:** content: a string feature. label: a classification label, with possible values including sports (0), finance (1), entertainment (2), automobile (3), technology (4). <br>
