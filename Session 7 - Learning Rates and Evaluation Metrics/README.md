@@ -17,7 +17,6 @@ The precision for this model is calculated as:
 - Precision = 90 / 120
 
 - Precision = 0.75
-
   
 
 
@@ -54,11 +53,24 @@ BLEU, or the Bilingual Evaluation Understudy, is a score for comparing a candida
 
 Although developed for translation, it can be used to evaluate text generated for a suite of natural language processing tasks.
 
+Model BLEU Score value is 0.059
+
 ## Perplexity Metrics
+Consider an arbitrary language . In this case, English will be utilized to simplify the arbitrary language. A language model assigns probabilities to sequences of arbitrary symbols such that the more likely a sequence  is to exist in that language, the higher the probability. A symbol can be a character, a word, or a sub-word (e.g. the word ‘going’ can be divided into two sub-words: ‘go’ and ‘ing’). Most language models estimate this probability as a product of each symbol's probability given its preceding symbols:
+
+![alt text](https://raw.githubusercontent.com/thamizhannal/END3.0/main/Session%207%20-%20Learning%20Rates%20and%20Evaluation%20Metrics/imgs/perplexity.png?raw=true)
+
+Language modeling image
+Probability of a sentence can be defined as the product of the probability of each symbol given the previous symbols
+
+Word Unigram was applied to compute Perplexity. PPL = 4.541
+
+## BERTScore
+BERTScore leverages the pre-trained contextual embeddings from BERT and matches words in candidate and reference sentences by cosine similarity. 
+
+BERT Score: Precision=13.80, Recall=28.83, F1-score=0.20
 
 
 
-
-
-
-
+References:
+https://thegradient.pub/understanding-evaluation-metrics-for-language-models/
