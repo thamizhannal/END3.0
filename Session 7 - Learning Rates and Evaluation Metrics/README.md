@@ -72,5 +72,7 @@ BERT Score: Precision=13.80, Recall=28.83, F1-score=0.20
 
 
 
-References:
+#### References:
+https://huggingface.co/metrics/bertscore
+https://colab.research.google.com/drive/1kpL8Y_AnUUiCxFjhxSrxCsc6-sDMNb_Q
 https://thegradient.pub/understanding-evaluation-metrics-for-language-models/
