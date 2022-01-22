@@ -86,7 +86,7 @@ Sub layer in encoder and decoder module.
 
 ### Model Training:
 
-![image-20220122221949897](C:\Users\tparamas\AppData\Roaming\Typora\typora-user-images\image-20220122221949897.png)
+![image-20220122221949897](https://raw.githubusercontent.com/thamizhannal/END3.0/main/Session%2010%20-%20Transformers%20Review/ModelTraining.png)
 
 
 
