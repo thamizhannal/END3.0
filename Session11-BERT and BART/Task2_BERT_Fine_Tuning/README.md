@@ -13,5 +13,7 @@ In addition and perhaps just as important, because of the pre-trained weights th
 Finally, this simple fine-tuning procedure (typically adding one fully-connected layer on top of BERT and training for a few epochs) was shown to achieve state of the art results with minimal task-specific adjustments for a wide variety of tasks: classification, language inference, semantic similarity, question answering, etc. Rather than implementing custom and sometimes-obscure architetures shown to work well on a specific task, simply fine-tuning BERT is shown to be a better (or at least equal) alternative.
 
 # Model Training logs
+![BERT Fine tuning logs](https://raw.githubusercontent.com/thamizhannal/END3.0/main/Session11-BERT%20and%20BART/Task2_BERT_Fine_Tuning/imgs/BERT_FT_Training.png)
 
 # show output on 5 samples
+![BERT FT sample output](https://raw.githubusercontent.com/thamizhannal/END3.0/main/Session11-BERT%20and%20BART/Task2_BERT_Fine_Tuning/imgs/BERT_FT_Output.png)
