@@ -23,6 +23,7 @@ Stanford Question Answering Dataset (SQuAD) is a reading comprehension dataset, 
 Ref: https://rajpurkar.github.io/SQuAD-explorer/
 
 ### BERT Training Loss
+![BERTTrainlogs](https://raw.githubusercontent.com/thamizhannal/END3.0/main/Session11-BERT%20and%20BART/Task1_Train_BERT_On_Squad_Dataset/imgs/BERT_Training.png)
 ![BERTTrainingloss](https://raw.githubusercontent.com/thamizhannal/END3.0/main/Session11-BERT%20and%20BART/Task1_Train_BERT_On_Squad_Dataset/imgs/BERT_Training_loss.png)
 ### BERT Validation
 ![BERTValidation](https://raw.githubusercontent.com/thamizhannal/END3.0/main/Session11-BERT%20and%20BART/Task1_Train_BERT_On_Squad_Dataset/imgs/BERT_eval.png)
