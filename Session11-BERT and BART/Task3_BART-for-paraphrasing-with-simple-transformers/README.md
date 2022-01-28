@@ -21,6 +21,8 @@ BART combines the two approaches into one:
 ![BART](https://raw.githubusercontent.com/thamizhannal/END3.0/main/Session11-BERT%20and%20BART/Task3_BART-for-paraphrasing-with-simple-transformers/imgs/BART.png)
  
 ### Training log snippets
+Initially, this model was attempted to train 50k samples, but it was failed in Colab Pro plan, later it was trained with 10k samples and validated using 1k sample.
+From training logs, it was evident that loss value was reduced from 0.55 to 0.53.
 ![BARTTraining](https://raw.githubusercontent.com/thamizhannal/END3.0/main/Session11-BERT%20and%20BART/Task3_BART-for-paraphrasing-with-simple-transformers/imgs/BART_Training.png)
 ### 5 sample results
 ![BARTOut1](https://raw.githubusercontent.com/thamizhannal/END3.0/main/Session11-BERT%20and%20BART/Task3_BART-for-paraphrasing-with-simple-transformers/imgs/BART_out.png)
