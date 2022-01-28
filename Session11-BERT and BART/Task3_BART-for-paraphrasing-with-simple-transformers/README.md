@@ -21,4 +21,7 @@ BART combines the two approaches into one:
 ![BART](https://raw.githubusercontent.com/thamizhannal/END3.0/main/Session11-BERT%20and%20BART/Task3_BART-for-paraphrasing-with-simple-transformers/imgs/BART.png)
  
 ### Training log snippets
+![BARTTraining](https://raw.githubusercontent.com/thamizhannal/END3.0/main/Session11-BERT%20and%20BART/Task3_BART-for-paraphrasing-with-simple-transformers/imgs/BART_Training.png)
 ### 5 sample results
+![BARTOut1](https://raw.githubusercontent.com/thamizhannal/END3.0/main/Session11-BERT%20and%20BART/Task3_BART-for-paraphrasing-with-simple-transformers/imgs/BART_out.png)
+![BARTout2](https://raw.githubusercontent.com/thamizhannal/END3.0/main/Session11-BERT%20and%20BART/Task3_BART-for-paraphrasing-with-simple-transformers/imgs/BART_out1.png)
