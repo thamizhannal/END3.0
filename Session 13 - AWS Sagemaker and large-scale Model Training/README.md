@@ -41,7 +41,7 @@ Evaluation: 20% of total records: 6961 <br>
 
 ![image](https://user-images.githubusercontent.com/8234814/154300892-0062433d-73ef-463f-9d42-7f1c0cf10ba4.png)
 
-![images] (https://raw.githubusercontent.com/thamizhannal/END3.0/main/Session%2013%20-%20AWS%20Sagemaker%20and%20large-scale%20Model%20Training/imgs/data_distribution.png)
+![images](https://raw.githubusercontent.com/thamizhannal/END3.0/main/Session%2013%20-%20AWS%20Sagemaker%20and%20large-scale%20Model%20Training/imgs/data_distribution.png)
 
 ## AWS Training:
 ```python
