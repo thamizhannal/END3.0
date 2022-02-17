@@ -9,6 +9,8 @@ https://github.com/aws-samples/finetune-deploy-bert-with-amazon-sagemaker-for-hu
 4. Share the link to your YouTube video, and the GitHub link where I can see the code you used for training (move the notebook with logs from Amazon to Github) <br>
 
 ## YouTube Recorded Video Link:
+![images](https://raw.githubusercontent.com/thamizhannal/END3.0/main/Session%2013%20-%20AWS%20Sagemaker%20and%20large-scale%20Model%20Training/imgs/huggingface_sagemaker.png)
+
 https://www.youtube.com/watch?v=SdFZJ5Zq-xQ
 
 ## Introduction to AWS SageMaker
